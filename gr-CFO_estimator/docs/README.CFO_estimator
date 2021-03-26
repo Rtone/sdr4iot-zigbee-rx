@@ -1,0 +1,11 @@
+This is the CFO_estimator-write-a-block package meant as a guide to building
+out-of-tree packages. To use the CFO_estimator blocks, the Python namespaces
+is in 'CFO_estimator', which is imported as:
+
+    import CFO_estimator
+
+See the Doxygen documentation for details about the blocks available
+in this package. A quick listing of the details can be found in Python
+after importing by using:
+
+    help(CFO_estimator)

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<block>
+  <name>frequency_offset_plateau</name>
+  <key>CFO_estimator_frequency_offset_plateau</key>
+  <category>[CFO_estimator]</category>
+  <import>import CFO_estimator</import>
+  <make>CFO_estimator.frequency_offset_plateau()</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>complex_in</name>
+    <type>complex</type>
+  </sink>
+	<sink>
+    <name>plateau</name>
+    <type>float</type>
+  </sink>	
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>exp_freq_out</name>
+    <type>complex</type>
+  </source>
+</block>

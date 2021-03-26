@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1oqpsk__dsss" kind="namespace" language="C++">
+    <compoundname>gr::oqpsk_dsss</compoundname>
+    <innerclass refid="classgr_1_1oqpsk__dsss_1_1access__code__prefixer" prot="public">gr::oqpsk_dsss::access_code_prefixer</innerclass>
+    <innerclass refid="classgr_1_1oqpsk__dsss_1_1packet__sink" prot="public">gr::oqpsk_dsss::packet_sink</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ousseynou/sdr4iot_phase2/zigbee-dump/gr-oqpsk_dsss/include/oqpsk_dsss/access_code_prefixer.h" line="24" column="1"/>
+  </compounddef>
+</doxygen>

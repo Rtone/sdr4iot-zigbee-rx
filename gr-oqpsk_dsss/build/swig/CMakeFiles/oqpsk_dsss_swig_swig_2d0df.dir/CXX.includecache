@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ousseynou/sdr4iot_phase2/zigbee-dump/gr-oqpsk_dsss/build/swig/oqpsk_dsss_swig_swig_2d0df.cpp
+

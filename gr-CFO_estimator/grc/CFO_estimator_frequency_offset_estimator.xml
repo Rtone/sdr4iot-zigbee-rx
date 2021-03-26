@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<block>
+  <name>frequency_offset_estimator</name>
+  <key>CFO_estimator_frequency_offset_estimator</key>
+  <category>[CFO_estimator]</category>
+  <import>import CFO_estimator</import>
+  <make>CFO_estimator.frequency_offset_estimator($len)</make>
+  <param>
+    <name>len</name>
+    <key>len</key>
+    <type>int</type>
+  </param>
+
+  
+  <sink>
+    <name>complex_in</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>delayed_complex_in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>complex_out</name>
+    <type>complex</type>
+  </source>
+   <source>
+    <name>freq_out</name>
+    <type>float</type>
+  </source>
+ <source>
+    <name>corr_out</name>
+    <type>float</type>
+  </source>
+</block>

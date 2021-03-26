@@ -1,0 +1,30 @@
+INCLUDE(FindPkgConfig)
+PKG_CHECK_MODULES(PC_CFO_ESTIMATOR CFO_estimator)
+
+FIND_PATH(
+    CFO_ESTIMATOR_INCLUDE_DIRS
+    NAMES CFO_estimator/api.h
+    HINTS $ENV{CFO_ESTIMATOR_DIR}/include
+        ${PC_CFO_ESTIMATOR_INCLUDEDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/include
+          /usr/local/include
+          /usr/include
+)
+
+FIND_LIBRARY(
+    CFO_ESTIMATOR_LIBRARIES
+    NAMES gnuradio-CFO_estimator
+    HINTS $ENV{CFO_ESTIMATOR_DIR}/lib
+        ${PC_CFO_ESTIMATOR_LIBDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/lib
+          ${CMAKE_INSTALL_PREFIX}/lib64
+          /usr/local/lib
+          /usr/local/lib64
+          /usr/lib
+          /usr/lib64
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(CFO_ESTIMATOR DEFAULT_MSG CFO_ESTIMATOR_LIBRARIES CFO_ESTIMATOR_INCLUDE_DIRS)
+MARK_AS_ADVANCED(CFO_ESTIMATOR_LIBRARIES CFO_ESTIMATOR_INCLUDE_DIRS)
+

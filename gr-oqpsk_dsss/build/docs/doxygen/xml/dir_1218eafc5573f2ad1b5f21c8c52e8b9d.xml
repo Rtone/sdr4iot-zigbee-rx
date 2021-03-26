@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_1218eafc5573f2ad1b5f21c8c52e8b9d" kind="dir">
+    <compoundname>oqpsk_dsss</compoundname>
+    <innerfile refid="access__code__prefixer_8h">access_code_prefixer.h</innerfile>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="packet__sink_8h">packet_sink.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ousseynou/sdr4iot_phase2/zigbee-dump/gr-oqpsk_dsss/include/oqpsk_dsss/"/>
+  </compounddef>
+</doxygen>

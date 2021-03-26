@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="access__code__prefixer_8h" local="no">access_code_prefixer.h</includedby>
+    <includedby refid="packet__sink_8h" local="no">packet_sink.h</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>packet_sink.h</label>
+        <link refid="packet__sink_8h"/>
+      </node>
+      <node id="8">
+        <label>access_code_prefixer.h</label>
+        <link refid="access__code__prefixer_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a1973c106666c1e30c733411310476e06" prot="public" static="no">
+        <name>OQPSK_DSSS_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ousseynou/sdr4iot_phase2/zigbee-dump/gr-oqpsk_dsss/include/oqpsk_dsss/api.h" line="25" column="12" bodyfile="/home/ousseynou/sdr4iot_phase2/zigbee-dump/gr-oqpsk_dsss/include/oqpsk_dsss/api.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ousseynou/sdr4iot_phase2/zigbee-dump/gr-oqpsk_dsss/include/oqpsk_dsss/api.h"/>
+  </compounddef>
+</doxygen>
